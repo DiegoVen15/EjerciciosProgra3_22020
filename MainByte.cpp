@@ -12,11 +12,8 @@ int main() {
 	cout << "Byte: " << b2 << "\n";
 
 	Byte b3 = b1 + b2;
-
-	cout << b3;
 	cout << "SUMA: " << b3 << "\n";
-	cout << ~b1;
-	cout << "NOT: " << b1 << "\n";
+	cout << "NOT: " << ~b1 << "\n";
 	Byte b4 = b1 | b2;
 	cout << "OR: " << b4 <<"\n";
 	Byte b5 = b1 & b2;
@@ -26,12 +23,10 @@ int main() {
 	Byte b7 = b1 - b2;
 	cout << "Resta: " << b7 << "\n";
 	Byte b8 = b1 * b2;
-	cout << "Multiplicacion: "<< b8;	
+	cout << "Multiplicacion: "<< b8 <<" \n";	
 
-	cout << "Decimal: " << b1.obtenerDecimal();
+	cout << "Decimal: " << b1.obtenerDecimal() << " \n";
 
-
-	cout << "Not: " << b1 << " \n";
 
 	_getch();
 }
