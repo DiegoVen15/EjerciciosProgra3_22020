@@ -14,20 +14,21 @@ int main() {
 	Byte b3 = b1 + b2;
 
 	cout << b3;
-
-	~b1;
+	cout << "SUMA: " << b3 << "\n";
+	cout << ~b1;
+	cout << "NOT: " << b1 << "\n";
 	Byte b4 = b1 | b2;
-	cout << b4;
+	cout << "OR: " << b4 <<"\n";
 	Byte b5 = b1 & b2;
-	cout << b5;
+	cout << "AND: " << b5 << "\n";
 	Byte b6 = b1 ^ b2;
-	cout << b6;
+	cout << "XOR: " << b6 << "\n";
 	Byte b7 = b1 - b2;
-	cout << b7;
+	cout << "Resta: " << b7 << "\n";
 	Byte b8 = b1 * b2;
-	cout << b8;	
+	cout << "Multiplicacion: "<< b8;	
 
-	b1.obtenerDecimal();
+	cout << "Decimal: " << b1.obtenerDecimal();
 
 
 	cout << "Not: " << b1 << " \n";
