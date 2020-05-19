@@ -14,7 +14,7 @@ public:
 		if (saldoBase < 0) std::cout << "Saldo inicial no valido";
 		saldoBase = 0;
 	};
-
+	float abono, retiro;
 	float saldo;
 	void setSaldo(int);
 	int getSaldo(void);
@@ -22,8 +22,8 @@ public:
 	float getAbono();
 	float getRetiro();
 	void imprimirSaldo();
-	void miembroAbonar(float);
-	void miembroCargar(float);
+	float miembroAbonar(float);
+	float miembroCargar(float);
 };
 #endif // !CUENTA_H
 

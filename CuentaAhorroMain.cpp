@@ -37,6 +37,10 @@ float CuentaAhorro::miembroCargar(float retiro1) {
 		return this->saldo - retiro1;
 	}
 }
+void cuenta::imprimirSaldo() {
+
+	cout << "Saldo: " << getSaldo << " \n";
+}
 
 
 

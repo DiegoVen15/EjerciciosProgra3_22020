@@ -24,7 +24,7 @@ public:
 	float getAbono();
 	float getRetiro();
 	double calcularInteres();
-	void miembroAbonar(float);
-	void miembroCargar(float);
+	float miembroAbonar(float);
+	float miembroCargar(float);
 };
 #endif // !CUENTAAHORRO_H
