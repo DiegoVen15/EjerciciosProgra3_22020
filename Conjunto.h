@@ -18,7 +18,7 @@ private:
 public:
 	Conjunto(void);
 	Conjunto(const char*);
-	Conjunto bubble();
+	void bubble();
 
 };
 
